@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Assets/Fonts/Montserrat.ttf);
+}
+body {
+    background-color: rgb(37, 37, 34);
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(235, 218, 196);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+table,tr,th {
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+* {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    margin: 0% 0%;
+}
+
+.name-home {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.actuellement {
+    padding-bottom: 2px;
+}
+
+.contact {
+    display: flex;
+}
+
+.Instagram_Profile {
+    padding-right: 10px;
+}
+
+.Instagram_Profile:active {
+    filter: brightness(0.6);
+}
+
+.Linkedin_Profile {
+    padding-right: 10px;
+}
+
+.Linkedin_Profile:active {
+    filter: brightness(0.6);
+}
+
+.e-mail {
+    padding-right: 20px;
+}
+.e-mail:active {
+    filter: brightness(0.6);
+}
+
+.e-mail:hover {
+    cursor:pointer;
+}
+
+.main {
+    border: 2px solid rgb(37, 37, 34);
+    height: 1000px;
+    background-color: rgb(37, 37, 34);
+}
+
+.post1 {
+    background-color: rgba(255, 248, 234, 0.301);
+    height: 900px;
+    margin: 10px;
+    border-radius: 10px;
+}
